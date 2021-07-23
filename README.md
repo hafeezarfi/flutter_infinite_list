@@ -14,49 +14,94 @@ A new Flutter project.
 
 ├── lib
 
-|   ├── posts
 
-│   │   ├── bloc
 
-│   │   │   └── post_bloc.dart
+|---├── posts
 
-|   |   |   └── post_event.dart
 
-|   |   |   └── post_state.dart
 
-|   |   └── models
+│---│---├── bloc
 
-|   |   |   └── models.dart*
 
-|   |   |   └── post.dart
 
-│   │   └── view
+│---│---│---└── post_bloc.dart
 
-│   │   |   ├── posts_page.dart
 
-│   │   |   └── posts_list.dart
 
-|   |   |   └── view.dart*
+|---|---|---└── post_event.dart
 
-|   |   └── widgets
 
-|   |   |   └── bottom_loader.dart
 
-|   |   |   └── post_list_item.dart
+|---|---|---└── post_state.dart
 
-|   |   |   └── widgets.dart*
 
-│   │   ├── posts.dart*
 
-│   ├── app.dart
+|---|---└── models
 
-│   ├── simple_bloc_observer.dart
 
-│   └── main.dart
+
+|---|---|---└── models.dart*
+
+
+
+|---|---|---└── post.dart
+
+
+
+│---│---└── view
+
+
+
+│---│---|---├── posts_page.dart
+
+
+
+│---│---|---└── posts_list.dart
+
+
+
+|---|---|---└── view.dart*
+
+
+
+|---|---└── widgets
+
+
+
+|---|---|---└── bottom_loader.dart
+
+
+
+|---|---|---└── post_list_item.dart
+
+
+
+|---|---|---└── widgets.dart*
+
+
+
+│---│---├── posts.dart*
+
+
+
+│---├── app.dart
+
+
+
+│---├── simple_bloc_observer.dart
+
+
+
+│---└── main.dart
+
+
 
 ├── pubspec.lock
 
+
+
 ├── pubspec.yaml
+
 
 
 <b>Note:</b>  '*' show barrel files.
