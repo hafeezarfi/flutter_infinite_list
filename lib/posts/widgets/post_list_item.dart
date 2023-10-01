@@ -12,7 +12,7 @@ class PostListItem extends StatelessWidget {
     return Material(
       child: ListTile(
         tileColor: Colors.amberAccent,
-        leading: Text('${post.id}',style: textTheme.caption,),
+        leading: Text('${post.id}',style: textTheme.bodySmall,),
         title: Text('${post.title}'),
         isThreeLine: true,
         subtitle: Text(post.body),

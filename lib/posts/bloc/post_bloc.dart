@@ -1,4 +1,3 @@
-import 'dart:async';
 import 'dart:convert';
 import 'dart:core';
 
@@ -77,5 +76,4 @@ class PostBloc extends Bloc<PostEvent, PostState> {
     }
     throw Exception('error fetching posts');
   }
-
 }
